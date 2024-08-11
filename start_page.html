@@ -24,10 +24,49 @@
         --c-cyan: rgb(42,161,152);
         --c-green: rgb(133,153,0);
       }
-    </style>
 
-    <link rel="stylesheet" href="StyleSheet_assessment"
+      /* Background colour */
+
+body {
+    background-color: var(--c-background-color);
+}
+
+
+/* background colour of header and footer */
+
+header, footer {
+    background-color: var(--c-background-highlights);
+}
+
+
+/* text colour */
+
+main, footer, header {
+    color: base-font-color;
+}
+
+
+/* Style links */
+
+article a {
+    color: c-magenta;
+}
+
+article a:hover {
+    color: c-orange;
+}
+
+
+/* Create borders around subsections */
+
+article section {
+    border: 3px solid c-cyan;
+}
+
+
+    </style>
     
+    <link rel="stylesheet" href="StyleSheet_assessment">
 
   </head>
 

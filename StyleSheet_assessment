@@ -3,7 +3,7 @@
 /* Background colour */
 
 body {
-    background-color: c-background-color;
+    background-color: var(--c-background-color);
 }
 
 
@@ -28,7 +28,7 @@ article a {
 }
 
 article a:hover {
-    color: orange;
+    color: c-orange;
 }
 
 
