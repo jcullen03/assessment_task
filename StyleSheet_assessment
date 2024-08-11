@@ -1,0 +1,22 @@
+
+
+/* Background colour */
+
+body {
+    background-color: c-background-color;
+}
+
+
+/* background colour of header and footer */
+
+header, footer {
+    background-color: c-background-highlights;
+}
+
+
+/* text colour */
+
+main, footer, header {
+    color: base-font-color;
+}
+
